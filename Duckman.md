@@ -25,10 +25,10 @@ Favourite emoji: :joy:
 >*Don' panic and don't forget your towel.*
 
 ## Enemies:
-| *Name*:           | *Backstory*:                                                                   | *Details*:                                             |   |   |
-|-----------------|------------------------------------------------------------------------------|------------------------------------------------------|---|---|
-| Bunny girl      | Ex GF, so can't be harmed or killed.                                         | Extremely furious and dangerous.                     |   |   |
-| Terence         | A friend who betrayed Duckman, so he had to eliminate Terence Willenburg II. | TERMINATED                                           |   |   |
-| Winnie the P**p | Duckman's nemesis. There will be world peace, when the final battle is over. | Super intelligent and has a lot of powerful friends. |   |   |
+| Name:           | Backstory:                                                                   | Details:                                             |
+|-----------------|------------------------------------------------------------------------------|------------------------------------------------------|
+| Bunny girl      | Ex GF, so can't be harmed or killed.                                         | Extremely furious and dangerous.                     |
+| Terence         | A friend who betrayed Duckman, so he had to eliminate Terence Willenburg II. | TERMINATED                                           |
+| Winnie the P**p | Duckman's nemesis. There will be world peace, when the final battle is over. | Super intelligent and has a lot of powerful friends. |
 
 [Wikipedia](https://en.wikipedia.org/wiki/Duckman)
