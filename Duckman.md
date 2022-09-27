@@ -7,7 +7,7 @@ First name: Duck
 Last name: Man
 Age: -missing-
 Hair color: Yellow
-Favourite emoji: :joy:
+Favourite emoji: 😜
 ```
 ## Skills
 1. He's cool.
