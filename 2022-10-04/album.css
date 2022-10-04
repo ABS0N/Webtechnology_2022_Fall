@@ -1,0 +1,66 @@
+album {
+    display: block;
+    border: thin solid black;
+    border-radius: 0.5em;
+    width: fit-content;
+    padding: 0.5em;
+    margin: 1em auto;
+    box-shadow: 0.5em 0.5em 0.5em gray;
+}
+
+artist, album > title, year {
+    font-size: x-large;
+    display: inline-block;
+    margin-bottom: 0.5em;
+}
+artist::after {
+    content: " \2013 ";
+}
+
+year::before {
+    content: "(";
+}
+
+year::after {
+    content: ")";
+}
+
+tracks {
+    display: table;
+    width: 100%;
+    counter-reset: track-number;
+}
+
+track {
+    display: table-row;
+}
+
+track > title, lenght {
+    display: table-cell;
+}
+
+track > title::before {
+    content: counter(track-number) ".";
+    counter-increment: track-number;
+    text-align: right;
+    display: inline-block;
+    width: 2em;
+    margin-right: 0.5em;
+}
+
+lenght {
+    text-align: right;
+}
+
+track:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+track:nth-child(even) {
+    background-color: white;
+}
+
+track:hover {
+    background-color: gold;
+    font-weight: bold;
+}
