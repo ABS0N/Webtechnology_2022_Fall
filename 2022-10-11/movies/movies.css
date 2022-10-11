@@ -28,9 +28,11 @@ year::after {
 
 genre {
     background-color: blueviolet;
-    display: inline;
+    display: inline-block;
+    width: 4.5em;
+    text-align: center;
     color: mintcream;
-    padding: 0.25em 0.75em;
+    padding: 0.25em;
     border-radius: 0.25em;
 }
 
