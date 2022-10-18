@@ -1,0 +1,101 @@
+body{
+    border: thin solid black;
+    width: 50%;
+    margin: 1em;
+}
+
+h1 {
+    text-align: center;
+}
+
+p.author {
+    text-align: center;
+    font-size: x-large;
+}
+
+header {
+    font-variant: small-caps;
+    letter-spacing: 0.25em;
+}
+
+nav, section.act {
+    border-top: medium solid black;
+}
+
+a {
+    color: slateblue;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: slateblue;
+    color: white;
+}
+
+header, nav {
+    margin: 1em;
+    padding: 1em;
+}
+
+section.act {
+    margin: 1em;
+}
+
+.scene > h1 {
+    border: thin solid red;
+    padding: 0.5em;
+}
+
+.speaker {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.stagedir::before {
+    content: "(";
+}
+
+.stagedir::after {
+    content: ")";
+}
+
+.stagedir {
+    color: gray;
+    font-style: italic;
+}
+
+.scene > .stagedir {
+    text-align: center;
+}
+
+.scene > div:nth-of-type(odd) {
+    background-color: aliceblue;
+    border-top: medium solid slateblue;
+}
+
+.scene > div:nth-of-type(even) {
+    border-top: medium solid silver;
+}
+
+.speaker, .scene > .stagedir {
+    padding: 1em;
+}
+
+.line:hover, div.stagedir:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+.act {
+    counter-reset: line-number;
+}
+
+.speech > div.line::after {
+    content: counter(line-number);
+    counter-increment: line-number;
+    float: right;
+}
+
+.speech, .scene > div.stagedir {
+    padding: 1em;
+}
