@@ -1,0 +1,38 @@
+.column {
+    width: 25%;
+    height: 100vh;
+    float: left;
+    text-align: center;
+    line-height: 100vh;
+
+    /* the same align with flexbox method
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    */
+}
+
+#c1 {
+    background-color: limegreen;
+}
+
+#c2 {
+    background-color: coral;
+}
+
+#c3 {
+    background-color: gold;
+}
+
+#c4 {
+    background-color: plum;
+}
+
+body {
+    margin: 0;
+    /* flexbox method
+    
+    display: flex;
+    */
+}

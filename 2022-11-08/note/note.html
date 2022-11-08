@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lorem ipsum</title>
+    <link rel="stylesheet" href="note.css">
+    <script src="note.js"></script>
+</head>
+<body>
+    <div class="note">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id justo ut
+        erat scelerisque pharetra faucibus eget mi. Aliquam tristique vulputate viverra. Aenean
+        imperdiet dignissim felis nec suscipit. Maecenas non imperdiet quam. Nullam at posuere
+        nulla. In varius massa eget posuere pellentesque. Aenean eu auctor massa, iaculis
+        vestibulum orci. Pellentesque porttitor dapibus nisi quis egestas. Vestibulum sodales,
+        sapien non tempus consectetur, massa urna vulputate mi, eget venenatis urna ante tempus
+        risus. Praesent massa lacus, faucibus sit amet ullamcorper non, vestibulum id
+        elit.</div>
+    <div class="warning">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id justo
+        ut erat scelerisque pharetra faucibus eget mi. Aliquam tristique vulputate viverra.
+        Aenean imperdiet dignissim felis nec suscipit. Maecenas non imperdiet quam. Nullam at
+        posuere nulla. In varius massa eget posuere pellentesque. Aenean eu auctor massa,
+        iaculis vestibulum orci. Pellentesque porttitor dapibus nisi quis egestas. Vestibulum
+        sodales, sapien non tempus consectetur, massa urna vulputate mi, eget venenatis urna
+        ante tempus risus. Praesent massa lacus, faucibus sit amet ullamcorper non, vestibulum
+        id elit.</div>
+    <div>
+        <input autocomplete="off" type="color" value="#CCFFCC" onchange="applyBackgroundColorChange('note', this.value)"/>
+        <span>In total, Note's backgorund color has been changed <span id="note-counter">0</span> times.</span>
+    </div>
+
+    <div>
+        <input autocomplete="off" type="color" value="#FFE4E1" onchange="applyBackgroundColorChange('warning', this.value)"/>
+        <span>In total, Warning's backgorund color has been changed <span id="warning-counter">0</span> times.</span>
+    </div>
+</body>
+</html>

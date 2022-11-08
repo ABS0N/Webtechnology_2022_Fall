@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background-color: cornflowerblue;
+}
+
+body, html {
+    height: 100%;
+}
+
+.box {
+    width: 25%;
+    height: 25%;
+    position: relative;
+
+/*
+position: absolute
+*/
+}
+
+#b1 {
+    background-color: limegreen;
+}
+
+#b2 {
+    background-color: coral;
+    left: 50%;
+    top: 25%;
+/*
+left: 50%;
+top: 50%;
+*/
+}
+
+#b3 {
+    background-color: gold;
+    left: 25%;
+    bottom: 25%;
+/*
+left: 25%;
+top:25%;
+*/
+}
+
+#b4 {
+    background-color: plum;
+    left: 75%;
+/*
+left: 75%;
+top: 75%;
+*/
+}
