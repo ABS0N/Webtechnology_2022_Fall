@@ -1,0 +1,12 @@
+@import "sudoku.css";
+.sudoku tr:nth-child(9) > td:nth-child(9),
+.sudoku tr:nth-child(9) > td:nth-child(1), .sudoku tr:nth-child(8) > td:nth-child(8),
+.sudoku tr:nth-child(8) > td:nth-child(2), .sudoku tr:nth-child(7) > td:nth-child(7),
+.sudoku tr:nth-child(7) > td:nth-child(3), .sudoku tr:nth-child(6) > td:nth-child(6),
+.sudoku tr:nth-child(6) > td:nth-child(4), .sudoku tr:nth-child(5) > td:nth-child(5), .sudoku tr:nth-child(4) > td:nth-child(4),
+.sudoku tr:nth-child(4) > td:nth-child(6), .sudoku tr:nth-child(3) > td:nth-child(3),
+.sudoku tr:nth-child(3) > td:nth-child(7), .sudoku tr:nth-child(2) > td:nth-child(2),
+.sudoku tr:nth-child(2) > td:nth-child(8), .sudoku tr:nth-child(1) > td:nth-child(1),
+.sudoku tr:nth-child(1) > td:nth-child(9) {
+  background-color: gold;
+}/*# sourceMappingURL=diagonal-sudoku.css.map */

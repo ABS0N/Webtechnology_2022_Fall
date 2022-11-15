@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+
+.columns {
+  height: 100vh;
+  display: flex;
+}
+.columns > div::before {
+  content: attr(id);
+}
+.columns > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+#base {
+  background-color: plum;
+}
+
+#lighter1 {
+  background-color: #eac6e7;
+}
+
+#lighter2 {
+  background-color: #f8ebf6;
+}
+
+#darker1 {
+  background-color: #c87ad0;
+}
+
+#darker2 {
+  background-color: #b055c2;
+}/*# sourceMappingURL=colors.css.map */

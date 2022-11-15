@@ -1,0 +1,45 @@
+@use 'sass:color';
+
+body {
+    margin: 0;
+}
+
+.columns {
+    height: 100vh;
+    display: flex;
+    & > div::before {
+        content: attr(id);
+    }
+    & > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+    }
+}
+
+$base-color: plum;
+$lighter1: color.adjust($base-color, $hue: 5, $lightness: 10%);
+$lighter2: color.adjust($base-color, $hue: 10, $lightness: 20%);
+$darker1: color.adjust($base-color, $hue: -5, $lightness: -10%);
+$darker2: color.adjust($base-color, $hue: -10, $lightness: -20%);
+
+#base {
+    background-color: $base-color;
+}
+
+#lighter1 {
+    background-color: $lighter1;
+}
+
+#lighter2 {
+    background-color: $lighter2;
+}
+
+#darker1 {
+    background-color: $darker1;
+}
+
+#darker2 {
+    background-color: $darker2;
+}

@@ -1,0 +1,29 @@
+table.sudoku {
+    border-collapse: collapse;
+    margin: 1em auto;
+    border: medium solid black;
+}
+
+table.sudoku td {
+    border: thin solid lightgray;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table.sudoku td:nth-child(3n) {
+    border-right: medium solid black;
+}
+
+table.sudoku tr:nth-child(3n) {
+    border-bottom: medium solid black;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}

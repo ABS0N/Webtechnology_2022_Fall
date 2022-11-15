@@ -1,0 +1,14 @@
+@import "sudoku.css";
+
+%diagonal{
+    background-color: gold;
+}
+
+.sudoku {
+    @for $i from 1 through 9 {
+        tr:nth-child(#{$i}) > td:nth-child(#{$i}),
+        tr:nth-child(#{$i}) > td:nth-child(#{10 - $i}) {
+            @extend %diagonal;
+        }
+    }
+}
