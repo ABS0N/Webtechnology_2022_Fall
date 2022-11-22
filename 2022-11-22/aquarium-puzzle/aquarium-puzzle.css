@@ -1,0 +1,45 @@
+main {
+    border: thin solid black;
+    padding: 1em;
+    font-family: sans-serif;
+}
+
+th, td {
+    width: 2em;
+    height: 2em;
+}
+
+th {
+    color: lightgray;
+}
+
+table {
+    margin: 1em auto;
+    border-collapse: collapse;
+}
+
+td {
+    border: thin solid black;
+}
+
+.filled {
+    background-color: lightblue;
+}
+
+tbody > tr:first-child > td,
+.top {
+    border-top: thick solid black;
+}
+
+tbody td:first-of-type,
+.left {
+    border-left: thick solid black;
+}
+
+tbody td:last-of-type {
+    border-right: thick solid black;
+}
+
+tbody > tr:last-child > td {
+    border-bottom: thick solid black;
+}
